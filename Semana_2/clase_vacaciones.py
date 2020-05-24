@@ -34,9 +34,9 @@ print("#   ATRIBUTOS   #")
 
 visitar_un_familiar.Entretenimiento = "Nos divertimos"
 visitar_un_familiar.Diversion = "Convivimos"
-visitar_un_familiar.Conocimiento = ""
-visitar_un_familiar.Distraccion = ""
-visitar_un_familiar.Comodidad = ""
+visitar_un_familiar.Conocimiento = "Conocemos"
+visitar_un_familiar.Distraccion = "Nos distraemos"
+visitar_un_familiar.Comodidad = "Nos sentimos comodos"
 
 print(visitar_un_familiar.Entretenimiento)
 print(visitar_un_familiar.Diversion)

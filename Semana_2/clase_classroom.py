@@ -33,10 +33,10 @@ Google_Classroom.almacenar_tareas()
 Google_Classroom.promedios()
 
 print("#   ATRIBUTOS   #")
-Google_Classroom.clases = ""
+Google_Classroom.clases = "POO, English, Bases de datos"
 Google_Classroom.diseño = "Colorido"
-Google_Classroom.tareas = ""
-Google_Classroom.profesores = ""
+Google_Classroom.tareas = "Tareas"
+Google_Classroom.profesores = "Salvador Hernandez, Oscar Lira, Yazmin Gutierrez"
 Google_Classroom.almacenamiento = "Almacenamiento de Goofle Drive del alumno"
 
 print(Google_Classroom.clases)
