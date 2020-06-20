@@ -7,7 +7,7 @@ class Clave: # Clase
         while respuesta == "S" or respuesta == "s":
 
             # Cadena de texto que deseamos cifrar
-            texto = input("Inserta tu texto:")
+            texto = input("Inserta tu texto: ")
 
             # La llave de cifrado o descifrado
             n = 3
