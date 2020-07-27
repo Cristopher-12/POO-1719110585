@@ -1,0 +1,5 @@
+Resultado
+las temperaturas leidas en centigrados son [14, 17]
+Las temperaturas convertidas a farentheit son [57.2, 62.6]
+El promedio de la temperatura en centigrados es 15.5
+El promedio de las temperaturas en farentheit es 59.900000000000006
