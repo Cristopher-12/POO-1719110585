@@ -3,3 +3,8 @@ las temperaturas capturadas en centigrados son: [12, 18, 20, 12]
 Las temperaturas convertidas a farentheit son: [53.6, 64.4, 68.0, 53.6]
 Promedio de la temperatura en centigrados: 15.5
 Promedio de las temperaturas en farentheit: 59.9
+Resultado
+las temperaturas capturadas en centigrados son: [20, 15, 18, 9]
+Las temperaturas convertidas a farentheit son: [68.0, 59.0, 64.4, 48.2]
+Promedio de la temperatura en centigrados: 15.5
+Promedio de las temperaturas en farentheit: 59.900000000000006
