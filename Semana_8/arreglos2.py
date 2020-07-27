@@ -12,7 +12,7 @@ class Temperaturas:  #definimos la clase
 		pass
 
 	def datostemp(self):  #metodo que llevara el recabar los datos
-		date = input("Inserta la fecha ")  #pide la fecha
+		date = input("Fecha: ")  #pide la fecha
 		self.fechas.append(date)  #alamacena la fecha en la variable fechas
 		temperatura = int(input("Inserte la temperatura en °C ")
 		                  )  #pide la temperatura en °c y de tipo entero
@@ -34,10 +34,10 @@ class Temperaturas:  #definimos la clase
 		             "a")  #abre el archivo en modo append o agregar en español
 		abrir.write("los datos son " + str(datos) +
 		            "\n")  #escribe en el documento los datos del diccionario
-		abrir.write("La temperatura mas alta es de " + str(maximo) +
+		abrir.write("Temperatura mas alta: " + str(maximo) +
 		            "\n")  #escribe y el resultado de la temperatura mas alta
 		abrir.close()  #cierra el archivo
-		print("Temperatura mas alta es de " +
+		print("Temperatura mas alta es: " +
 		      str(maximo))  #imprime la temperatura mas alta y su fecha
 
 	def obtpromedio(self):  #metodo promedio
@@ -46,17 +46,17 @@ class Temperaturas:  #definimos la clase
 		#sum() suma todos los numeros de una tupla siempre y cuando sea un dato numerico
 		self.promedio_farentheit = sum(
 		    self.farentheit) / contador  #calcula el promedio en °f
-		print("El promedio en farentheit es de " + str(
+		print("Promedio en farentheit: " + str(
 		    self.promedio_farentheit) + "\n")  #imprime el promedio de los °c
-		print("El promedio en centigrados es de " + str(
+		print("Promedio en centigrados: " + str(
 		    self.promedio_centigrados) + "\n")  #imprime el pormedio de los °f
 
 	def archivotext(self):  #metodo archivo
 		abrir = open("Temperaturas.txt",
 		             "a")  #abre el archivo en modo append o agregar
-		abrir.write("El promedio en centigrados es de " + str(
+		abrir.write("Promedio en centigrados: " + str(
 		    self.promedio_centigrados) + "\n")  #agrega el promedio de los °c
-		abrir.write("El promedio en farentheit es de " + str(
+		abrir.write("Promedio en farentheit: " + str(
 		    self.promedio_farentheit) + "\n")  #agrega el promedio de los °f
 		abrir.close()  #cierra el archivo
 
@@ -66,7 +66,7 @@ respuesta = "S"  #variable respuesta ayudara al while y al if
 while respuesta == "S" or respuesta == "s":  #mientras respuesta sea S o S
 	contador += 1  #el contador sumara 1
 	objeto.datostemp()  #llamara al metodo que se encarga de los datos
-	respuesta = input("¿Desea leer otra fecha y temperatura? S/N "
+	respuesta = input("¿Desea leer otra fecha y temperatura?: "
 	                  )  #pregunta si quieres leer otra fecha y temperatura
 	if respuesta == "N" or respuesta == "n":  #si la respuesta es n o N
 		objeto = Temperaturas()  #se declara el objeto
