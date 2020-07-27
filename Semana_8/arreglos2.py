@@ -73,5 +73,4 @@ while respuesta == "S" or respuesta == "s":  #mientras respuesta sea S o S
 		objeto.obtpromedio()  #llama al metodo preomedio
 		objeto.convertsearch()  #llama al metodo de convercion y busqueda
 		objeto.archivotext()  #llama al metodo archivo
-		
-        break  #termina el codigo
+		break  #termina el codigo
