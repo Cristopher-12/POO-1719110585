@@ -13,8 +13,8 @@ class Temperaturas:#definimos la clase
             accountant+=1 #contador aumentara 1 vez
             temperatura=int(input("Inserte la temperatura ")) #Linea para insertar la temperatura de tipo entero
             c.append(temperatura) #agraga los valores de Temperatura a la variable centigrados
-            convertir=(temperatura*9/5)+32 #convierte de centigrados a farentheit
-            f.append(convertir) #agrega la convercion a la variable farentheit
+            conv=(temperatura*9/5)+32 #convierte de centigrados a farentheit
+            f.append(conv) #agrega la convercion a la variable farentheit
             respuesta=input("¿Desea leer otra temperatura? ") #pregunta si desea leer otra temperatura
             
             if respuesta=="N" or respuesta=="n": #si la se respuesta es N o n
