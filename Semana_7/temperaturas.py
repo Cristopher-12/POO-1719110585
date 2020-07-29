@@ -9,15 +9,15 @@ class Temperaturas:#definimos la clase
         respuesta="S"#variable que ayudara a realizar el while
         accountant=0 #ayudara acontar el numero veses que se repitio el codigo
         
-        while respuesta=="S" or respuesta=="s": #si respuesta es S o s
+        while respuesta=="S" or respuesta=="s" or respuesta=="Si" or respuesta=="si": #si respuesta es positiva
             accountant+=1 #contador aumentara 1 vez
-            temperatura=int(input("Inserte la temperatura ")) #Linea para insertar la temperatura de tipo entero
+            temperatura=int(input("Inserte la temperatura: ")) #Linea para insertar la temperatura de tipo entero
             c.append(temperatura) #agraga los valores de Temperatura a la variable centigrados
             conv=(temperatura*9/5)+32 #convierte de centigrados a farentheit
             f.append(conv) #agrega la convercion a la variable farentheit
             respuesta=input("¿Desea leer otra temperatura? ") #pregunta si desea leer otra temperatura
             
-            if respuesta=="N" or respuesta=="n": #si la se respuesta es N o n
+            if respuesta=="N" or respuesta=="n" or respuesta=="No" or respuesta=="no": #si la se respuesta es negativa
                 abrir=open("almacenamiento.txt","a") #abre el archivo de texto en modo de agregar
                 abrir.write("Resultado\n") #agrga el siguente texto Resultado + un salto de linea
                 abrir.write("las temperaturas capturadas en centigrados son: "+str(c)+"\n") #escrebe las temperaturas de centigrados

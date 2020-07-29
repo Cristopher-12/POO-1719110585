@@ -63,12 +63,12 @@ class Temperaturas:  #definimos la clase
 
 objeto = Temperaturas()  #declaramos el objeto
 respuesta = "S"  #variable respuesta ayudara al while y al if
-while respuesta == "S" or respuesta == "s":  #mientras respuesta sea S o S
+while respuesta == "S" or respuesta == "s" or respuesta=="Si" or respuesta=="si":  #mientras respuesta sea S o S
 	contador += 1  #el contador sumara 1
 	objeto.datostemp()  #llamara al metodo que se encarga de los datos
 	respuesta = input("¿Desea leer otra fecha y temperatura?: "
 	                  )  #pregunta si quieres leer otra fecha y temperatura
-	if respuesta == "N" or respuesta == "n":  #si la respuesta es n o N
+	if respuesta == "N" or respuesta == "n" or respuesta=="No" or respuesta=="no":  #si la respuesta es n o N
 		objeto = Temperaturas()  #se declara el objeto
 		objeto.obtpromedio()  #llama al metodo preomedio
 		objeto.convertsearch()  #llama al metodo de convercion y busqueda

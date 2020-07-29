@@ -32,7 +32,7 @@ class Cesartxt: #Definimos la clase primaria
                 abrir.write(descif) #escribe el cifrado del texto 
                 abrir.close()#cierra el archivo de texto
                 print(descif)#imprime el descifrado del archivo
-            respuesta=input("Desea cifrar o desifrar otro archivo de texto? ") #pregunta si desea analizar otro archivo de texto
+            respuesta=input("Desea cifrar o descifrar otro archivo de texto? ") #pregunta si desea analizar otro archivo de texto
             
             if respuesta=="N" or respuesta=="N" or respuesta=="No" or respuesta=="no": #si la respuesta es (N , n) ó (Si , si)  
                 break #termina de ejecutar el codigo

@@ -6,3 +6,7 @@ los datos son {68.0: '25 de julio de 2020', 64.4: '18'}
 La temperatura mas alta es de (68.0, '25 de julio de 2020')
 El promedio en centigrados es de 19.0
 El promedio en farentheit es de 66.2
+los datos son {64.4: '14/07/2020', 66.2: '15/07/2020', 57.2: '15/07/2020'}
+Temperatura mas alta: (66.2, '15/07/2020')
+Promedio en centigrados: 17.0
+Promedio en farentheit: 62.6
